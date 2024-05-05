@@ -10,7 +10,7 @@ const port = 8080;
 const alumnosRouter = require("./routes/alumnosRoutes");
 const dbConnect = require("./database/dbConnect");
 
-//middlewares
+//Middlewares
 app.use(express.json());
 app.use(logTimeStamp);
 

@@ -20,6 +20,7 @@ const alumnoSchema = new Schema(
     },
     curso: {
       type: String,
+      enum: ["Matemáticas","Literatura","Inglés","Historia","Geografía","Biología","Música","Arte"],
       required: true,
     },
     email: {

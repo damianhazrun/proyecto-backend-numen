@@ -4,6 +4,8 @@ const alumnosController = require('../controllers/alumnosController');
 
 /*Crear alumno*/
 router.post('/new-alumno', alumnosController.create);
+/*Crear alumno random*/
+router.post('/new-alumno-random', alumnosController.createRandomAlumno);
 /*Lista de alumnos*/
 router.get('/', alumnosController.list);
 /*Alumno por ID*/

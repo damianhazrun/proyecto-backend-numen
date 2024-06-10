@@ -8,6 +8,7 @@ const port = 8080;
 
 //Routers
 const alumnosRouter = require("./routes/alumnosRoutes");
+const docentesRouter = require("./routes/docentesRoutes");
 const dbConnect = require("./database/dbConnect");
 
 //Middlewares
@@ -21,6 +22,8 @@ app.get("/", (req, res) => {
 
 //Routers
 app.use("/alumnos", alumnosRouter);
+app.use("/docentes", docentesRouter)
+
 
 //Conexión a MongoDB
 dbConnect();

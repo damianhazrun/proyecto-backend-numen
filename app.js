@@ -14,6 +14,7 @@ const dbConnect = require("./database/dbConnect");
 //Middlewares
 app.use(express.json());
 app.use(logTimeStamp);
+app.use(express.static('public'));
 
 //Importo pagina inicial de /public/index.html
 app.get("/", (req, res) => {

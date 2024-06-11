@@ -13,7 +13,7 @@ router.get('/id/:id',docentesController.getById)
 /*Docente por DNI*/
 router.get('/dni/:dni',docentesController.getByDni)
 /*Actualizar docente por ID*/
-router.put('/update/id/:id',docentesController.update)
+router.put('/update-docente/id/:id',docentesController.update)
 /*Cambiar a docente con licencia por ID*/
 router.delete('/licencia/id/:id',docentesController.changeToLicencia)
 /*Eliminar docente por ID*/

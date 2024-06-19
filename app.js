@@ -15,6 +15,8 @@ const store = new MongoDBStore({
 const alumnosRouter = require("./routes/alumnosRoutes");
 const docentesRouter = require("./routes/docentesRoutes");
 const noDocentesRouter = require("./routes/noDocentesRoutes")
+const artApiRouter = require("./routes/artApiRoutes")
+const countriesApiRouter = require("./routes/countriesApiRoutes")
 const dbConnect = require("./database/dbConnect");
 
 //Middlewares
@@ -37,7 +39,10 @@ app.get("/", (req, res) => {
 //Routers
 app.use("/alumnos", alumnosRouter);
 app.use("/docentes", docentesRouter);
-app.use("/no-docentes", noDocentesRouter)
+app.use("/no-docentes", noDocentesRouter);
+app.use("/art-api", artApiRouter);
+app.use("/countries-api", countriesApiRouter);
+
 
 
 //Conexión a MongoDB

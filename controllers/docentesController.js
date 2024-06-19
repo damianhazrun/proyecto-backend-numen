@@ -49,7 +49,7 @@ exports.createRandomDocente = async (req, res) => {
     telefono: faker.phone.phoneNumber(),
     direccion: faker.address.streetAddress(),
     foto: "https://www.w3schools.com/howto/img_avatar.png",
-    regular: faker.random.boolean(),
+    licencia: faker.random.boolean(),
   };
   try {
     const docente = await Docente.create(newRandomDocente);

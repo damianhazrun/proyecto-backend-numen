@@ -6,13 +6,8 @@ const NoDocente = require("../models/NoDocente");
 exports.create = async (req, res) => {
   const newNoDocente = { ...req.body };
 
-  // Calcula la edad basándose en la fecha de nacimiento
   const birthDate = new Date(newNoDocente.fecha_nacimiento);
-  const ageDiffMs = Date.now() - birthDate.getTime();
-  const ageDate = new Date(ageDiffMs);
-  const age = Math.abs(ageDate.getUTCFullYear() - 1970);
-
-  // Verifica si el no docente es menor de 18 años
+  const age = new Date().getFullYear() - birthDate.getFullYear();
   if (age < 18) {
     return res
       .status(400)
@@ -33,8 +28,7 @@ exports.create = async (req, res) => {
 
 /*Crear un nuevo no docente con datos aleatorios*/
 exports.createRandomNoDocente = async (req, res) => {
-
-  // Calcula las fechas para una persona de 18 a 100 años
+  
   const fechaMaxima = new Date();
   fechaMaxima.setFullYear(fechaMaxima.getFullYear() - 18);
   const fechaMinima = new Date();
@@ -54,12 +48,10 @@ exports.createRandomNoDocente = async (req, res) => {
 
   try {
     const noDocente = await NoDocente.create(newRandomNoDocente);
-    res
-      .status(201)
-      .json({
-        message: "Nuevo no docente random creado con éxito",
-        data: noDocente,
-      });
+    res.status(201).json({
+      message: "Nuevo no docente random creado con éxito",
+      data: noDocente,
+    });
   } catch (error) {
     res
       .status(400)

@@ -19,11 +19,20 @@ exports.create = async (req, res) => {
 
 /*Crear un nuevo alumno con datos aleatorios*/
 exports.createRandomAlumno = async (req, res) => {
-  const cursos = ["Matemáticas","Literatura","Inglés","Historia","Geografía","Biología","Música","Arte"];
+  const cursos = [
+    "Matemáticas",
+    "Literatura",
+    "Inglés",
+    "Historia",
+    "Geografía",
+    "Biología",
+    "Música",
+    "Arte",
+  ];
   const newRandomAlumno = {
     nombre: faker.name.firstName(),
     apellido: faker.name.lastName(),
-    dni: faker.random.number({min:10000000, max:99999999}).toString(),
+    dni: faker.random.number({ min: 10000000, max: 99999999 }).toString(),
     fecha_nacimiento: faker.date.past(),
     curso: faker.random.arrayElement(cursos),
     email: faker.internet.email(),
@@ -43,7 +52,6 @@ exports.createRandomAlumno = async (req, res) => {
       .json({ message: "Error al crear alumno random - " + error.message });
   }
 };
-
 
 //READ
 /* Obtener lista de alumnos*/
@@ -82,7 +90,6 @@ exports.getByDni = async (req, res) => {
   }
 };
 
-
 //PUT
 /* Actualizar un alumno por id */
 exports.update = async (req, res) => {
@@ -101,7 +108,6 @@ exports.update = async (req, res) => {
       .json({ message: "Error al actualizar alumno - " + error.message });
   }
 };
-
 
 //DELETE
 /* Cambiar regularidad por id*/

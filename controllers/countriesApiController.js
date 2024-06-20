@@ -7,7 +7,11 @@ exports.getCountries = async (req, res) => {
     const response = await axios.get(`${COUNTRY_API_URL}/AvailableCountries`);
     res.json(response.data);
   } catch (error) {
-    res.status(500).send(error.message);
+    res
+      .status(500)
+      .json({
+        message: "Error al obtener listado de países - " + error.message,
+      });
   }
 };
 /* Obtener información de un país según su código */
@@ -18,7 +22,11 @@ exports.getCountryInfo = async (req, res) => {
     );
     res.json(response.data);
   } catch (error) {
-    res.status(500).send(error.message);
+    res
+      .status(500)
+      .json({
+        message: "Error al obtener información del país - " + error.message,
+      });
   }
 };
 
@@ -30,6 +38,10 @@ exports.getHolidays = async (req, res) => {
     );
     res.json(response.data);
   } catch (error) {
-    res.status(500).send(error.message);
+    res
+      .status(500)
+      .json({
+        message: "Error al obtener feriados del pais - " + error.message,
+      });
   }
 };

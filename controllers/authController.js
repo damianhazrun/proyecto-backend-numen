@@ -14,23 +14,25 @@ exports.register = async (req, res) => {
 
     await user.save();
 
-    res.status(201).send("Usuario registrado con éxito");
+    res.status(201).json({ message: "Usuario registrado con éxito" });
   } catch (error) {
-    res.status(500).send("Error al registrar el usuario - ");
+    res
+      .status(500)
+      .json({ message: "Error al registrar el usuario - " + error.message });
   }
 };
 
 /* Lista de usuarios */
-exports.getUsers = async (req,res) => {
+exports.getUsers = async (req, res) => {
   try {
-    const users = await Usuario.find()
-    res.json(users)
+    const users = await Usuario.find();
+    res.json(users);
   } catch (error) {
     res.status(500).json({
       message: "Error al obtener  lista de usuarios - " + error.message,
     });
   }
-}
+};
 
 /* Iniciar sesión */
 exports.login = async (req, res) => {
@@ -46,21 +48,26 @@ exports.login = async (req, res) => {
 
       res.status(200).json({ token });
     } else {
-      res.status(401).send("Credenciales inválidas");
+      res
+        .status(401)
+        .json({ message: "Credenciales inválidas - " + error.message });
     }
   } catch (error) {
-    res.status(500).send("Error al iniciar sesión - "+ error.message);
+    res
+      .status(500)
+      .json({ message: "Error al iniciar sesión - " + error.message });
   }
 };
-
 
 /* Cerrar sesion */
 
 exports.logout = async (req, res) => {
   try {
-    res.clearCookie('token');
-    res.status(200).send('Cierre de sesión exitoso');
+    res.clearCookie("token");
+    res.status(200).json("Cierre de sesión exitoso");
   } catch (error) {
-    res.status(500).send('Error al cerrar sesión - ' + error.message);
+    res
+      .status(500)
+      .json({ message: "Error al cerrar sesión - " + error.message });
   }
 };

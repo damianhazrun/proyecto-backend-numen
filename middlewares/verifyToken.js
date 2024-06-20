@@ -7,14 +7,17 @@ const verifyToken = (req, res, next) => {
     res
       .status(403)
       .json({ message: "Recurso no disponible. Inicie sesión para continuar" });
-  }
-
-  try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
-    req.user = decoded;
-    next();
-  } catch (error) {
-    return res.status(401).send("Token inválido o expirado");
+  } else {
+    jwt.verify(token, process.env.JWT_SECRET_KEY, (error, decoded) => {
+      if (error) {
+        res.status(401).json({
+          message: "Acceso denegado. Token no válido o expirado.",
+        });
+      } else {
+        req.payload = decoded;
+        next();
+      }
+    });
   }
 };
 

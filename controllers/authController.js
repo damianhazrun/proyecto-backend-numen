@@ -16,9 +16,21 @@ exports.register = async (req, res) => {
 
     res.status(201).send("Usuario registrado con éxito");
   } catch (error) {
-    res.status(500).send("Error al registrar el usuario");
+    res.status(500).send("Error al registrar el usuario - ");
   }
 };
+
+/* Lista de usuarios */
+exports.getUsers = async (req,res) => {
+  try {
+    const users = await Usuario.find()
+    res.json(users)
+  } catch (error) {
+    res.status(500).json({
+      message: "Error al obtener  lista de usuarios - " + error.message,
+    });
+  }
+}
 
 /* Iniciar sesión */
 exports.login = async (req, res) => {
@@ -28,7 +40,7 @@ exports.login = async (req, res) => {
     if (user && (await bcrypt.compare(req.body.password, user.password))) {
       const token = jwt.sign(
         { userId: user._id, role: user.role },
-        process.env.JWT_SECRET,
+        process.env.JWT_SECRET_KEY,
         { expiresIn: "1h" }
       );
 
@@ -37,6 +49,18 @@ exports.login = async (req, res) => {
       res.status(401).send("Credenciales inválidas");
     }
   } catch (error) {
-    res.status(500).send("Error al iniciar sesión");
+    res.status(500).send("Error al iniciar sesión - "+ error.message);
+  }
+};
+
+
+/* Cerrar sesion */
+
+exports.logout = async (req, res) => {
+  try {
+    res.clearCookie('token');
+    res.status(200).send('Cierre de sesión exitoso');
+  } catch (error) {
+    res.status(500).send('Error al cerrar sesión - ' + error.message);
   }
 };

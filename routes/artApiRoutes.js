@@ -1,25 +1,55 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const artController = require('../controllers/artApiController');
+const artController = require("../controllers/artApiController");
+const verifyToken = require("../middlewares/verifyToken");
+const checkRole = require("../middlewares/checkRole");
 
-// Obtener obras de arte
-router.get('/artworks', artController.getArtworks);
+// Obtener listado de obras de arte
+router.get(
+  "/artworks",
+  verifyToken,
+  checkRole(["alumno", "docente", "admin"]),
+  artController.getArtworks
+);
 
-// Obtener obra de arte por ID
-router.get('/artworks/id/:id', artController.getArtworkById);
+// Obtener una obra de arte por ID
+router.get(
+  "/artworks/id/:id",
+  verifyToken,
+  checkRole(["alumno", "docente", "admin"]),
+  artController.getArtworkById
+);
 
 // Buscar obras de arte por término
-router.get('/artworks/search/:query', artController.searchArtworks);
+router.get(
+  "/artworks/search/:query",
+  verifyToken,
+  checkRole(["alumno", "docente", "admin"]),
+  artController.searchArtworks
+);
 
-
-// Obtener la lista de artistas
-router.get('/artists', artController.getArtists);
+// Obtener listado de artistas
+router.get(
+  "/artists",
+  verifyToken,
+  checkRole(["alumno", "docente", "admin"]),
+  artController.getArtists
+);
 
 // Obtener un artista específico por ID
-router.get('/artists/id/:id', artController.getArtistById);
+router.get(
+  "/artists/id/:id",
+  verifyToken,
+  checkRole(["alumno", "docente", "admin"]),
+  artController.getArtistById
+);
 
 // Buscar artistas por término
-router.get('/artists/search/:query', artController.searchArtists);
-
+router.get(
+  "/artists/search/:query",
+  verifyToken,
+  checkRole(["alumno", "docente", "admin"]),
+  artController.searchArtists
+);
 
 module.exports = router;

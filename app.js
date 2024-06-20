@@ -17,6 +17,7 @@ const docentesRouter = require("./routes/docentesRoutes");
 const noDocentesRouter = require("./routes/noDocentesRoutes")
 const artApiRouter = require("./routes/artApiRoutes")
 const countriesApiRouter = require("./routes/countriesApiRoutes")
+const authRouter = require("./routes/authRoutes")
 const dbConnect = require("./database/dbConnect");
 
 //Middlewares
@@ -42,6 +43,7 @@ app.use("/docentes", docentesRouter);
 app.use("/no-docentes", noDocentesRouter);
 app.use("/art-api", artApiRouter);
 app.use("/countries-api", countriesApiRouter);
+app.use("/auth", authRouter)
 
 
 

@@ -3,7 +3,6 @@ const path = require("path");
 require("dotenv").config();
 const logTimeStamp = require("./middlewares/logTimeStamps");
 const session=require("express-session")
-const cookieParser=require("cookie-parser")
 const MongoDBStore = require("connect-mongodb-session")(session);
 const app = express();
 const store = new MongoDBStore({
@@ -24,7 +23,6 @@ const dbConnect = require("./database/dbConnect");
 app.use(express.json());
 app.use(logTimeStamp);
 app.use(express.static('public'));
-app.use(cookieParser())
 app.use(session({
      secret: process.env.SESSION_SECRET,
      resave: false,

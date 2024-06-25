@@ -2,6 +2,7 @@ const faker = require("faker");
 const Docente = require("../models/Docente");
 
 //CREATE
+
 /* Crear nuevo docente */
 exports.create = async (req, res) => {
   const newDocente = { ...req.body };
@@ -71,6 +72,7 @@ exports.createRandomDocente = async (req, res) => {
 };
 
 //READ
+
 /* Obtener lista de docentes*/
 exports.list = async (req, res) => {
   try {
@@ -108,6 +110,7 @@ exports.getByDni = async (req, res) => {
 };
 
 //PUT
+
 /* Actualizar un docente por id */
 exports.update = async (req, res) => {
   try {
@@ -127,6 +130,7 @@ exports.update = async (req, res) => {
 };
 
 //DELETE
+
 /* Cambiar a Con licencia por id*/
 exports.changeToLicencia = async (req, res) => {
   try {

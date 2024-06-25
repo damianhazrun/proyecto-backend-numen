@@ -35,6 +35,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
+
 //Routers
 app.use("/alumnos", alumnosRouter);
 app.use("/docentes", docentesRouter);

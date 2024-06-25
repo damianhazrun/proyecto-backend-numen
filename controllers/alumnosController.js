@@ -2,6 +2,7 @@ const faker = require("faker");
 const Alumno = require("../models/Alumno");
 
 //CREATE
+
 /* Crear un nuevo alumno */
 exports.create = async (req, res) => {
   const newAlumno = { ...req.body };
@@ -54,6 +55,7 @@ exports.createRandomAlumno = async (req, res) => {
 };
 
 //READ
+
 /* Obtener lista de alumnos*/
 exports.list = async (req, res) => {
   try {
@@ -91,6 +93,7 @@ exports.getByDni = async (req, res) => {
 };
 
 //PUT
+
 /* Actualizar un alumno por id */
 exports.update = async (req, res) => {
   try {
@@ -110,6 +113,7 @@ exports.update = async (req, res) => {
 };
 
 //DELETE
+
 /* Cambiar regularidad por id*/
 exports.irregular = async (req, res) => {
   try {

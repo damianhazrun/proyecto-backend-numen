@@ -2,6 +2,7 @@ const faker = require("faker");
 const NoDocente = require("../models/NoDocente");
 
 //CREATE
+
 /* Crear nuevo no docente */
 exports.create = async (req, res) => {
   const newNoDocente = { ...req.body };
@@ -28,7 +29,6 @@ exports.create = async (req, res) => {
 
 /*Crear un nuevo no docente con datos aleatorios*/
 exports.createRandomNoDocente = async (req, res) => {
-  
   const fechaMaxima = new Date();
   fechaMaxima.setFullYear(fechaMaxima.getFullYear() - 18);
   const fechaMinima = new Date();
@@ -60,6 +60,7 @@ exports.createRandomNoDocente = async (req, res) => {
 };
 
 //READ
+
 /* Obtener lista de no docentes*/
 exports.list = async (req, res) => {
   try {
@@ -97,6 +98,7 @@ exports.getByDni = async (req, res) => {
 };
 
 //PUT
+
 /* Actualizar un no docente por id */
 exports.update = async (req, res) => {
   try {
@@ -116,6 +118,7 @@ exports.update = async (req, res) => {
 };
 
 //DELETE
+
 /* Cambiar a Con licencia por id*/
 exports.changeToLicencia = async (req, res) => {
   try {

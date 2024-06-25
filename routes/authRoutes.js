@@ -6,12 +6,13 @@ const authController = require("../controllers/authController");
 router.post("/register", authController.register);
 
 // Listado de usuarios
-router.get("/users", authController.getUsers)
+router.get("/users", authController.getUsers);
 
 // Iniciar sesión
 router.post("/login", authController.login);
 
 // Cerrar sesión
-router.post("/logout", authController.logout)
+router.post("/logout", authController.logout);
+
 
 module.exports = router;

@@ -14,6 +14,7 @@ exports.getCountries = async (req, res) => {
       });
   }
 };
+
 /* Obtener información de un país según su código */
 exports.getCountryInfo = async (req, res) => {
   try {

@@ -1,5 +1,3 @@
-¡Poruesto! A continuación, te proporciono la documentación de uso corregida para tu proyecto de backend:
-
 # Documentación de Uso del Proyecto de Backend
 
 ## 1. Configuración Inicial

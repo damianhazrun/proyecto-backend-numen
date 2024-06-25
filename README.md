@@ -2,7 +2,7 @@
 
 ## 1. Configuración Inicial
 
-- Clona el repositorio del proyecto desde [repositorio](https://github.com/tu-repositorio).
+- Clona el repositorio del proyecto desde [repositorio](https://github.com/damianhazrun/proyecto-backend-numen).
 - Instala las dependencias utilizando `npm install`.
 - Crea un archivo `.env` con las siguientes variables de entorno:
     - `MONGO_URL`: URL de conexión a la base de datos MongoDB.

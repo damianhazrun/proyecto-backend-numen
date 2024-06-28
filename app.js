@@ -30,7 +30,7 @@ app.use(session({
      store: store
 }))
 
-//Importo pagina inicial de /public/index.html
+//Pagina inicial de /public/index.html
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });

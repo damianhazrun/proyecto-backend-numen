@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "Proyecto Final BackEnd",
     "collectionId": "acd7cf24-efe8-4c6b-887b-795995e3373b",
-    "dateExported": "2024-06-25T01:49:00.603Z",
+    "dateExported": "2024-06-28T00:57:40.140Z",
     "version": "1.2",
     "folders": [
         {
@@ -156,11 +156,11 @@
             "method": "GET",
             "sortNum": 10000,
             "created": "2024-05-05T18:12:56.740Z",
-            "modified": "2024-06-24T20:09:55.798Z",
+            "modified": "2024-06-28T00:50:26.643Z",
             "headers": [
                 {
                     "name": "Authorization",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc0NzE1MWQzY2M1NGIyMDAxOGViMmUiLCJyb2xlIjoibm8tZG9jZW50ZSIsImlhdCI6MTcxOTI1OTc3NywiZXhwIjoxNzE5MjYzMzc3fQ.hpZMDRqFrbDWiIFiy6CpjlS6NMU0VavNPZF1YaZo8xU"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
                 }
             ]
         },
@@ -173,11 +173,11 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-05-05T23:33:53.991Z",
-            "modified": "2024-06-20T21:20:35.511Z",
+            "modified": "2024-06-28T00:49:59.050Z",
             "headers": [
                 {
                     "name": "Authorization",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc0NzE1MWQzY2M1NGIyMDAxOGViMmUiLCJyb2xlIjoibm8tZG9jZW50ZSIsImlhdCI6MTcxODkxODQwMSwiZXhwIjoxNzE4OTIyMDAxfQ.bJYr-6U0JyIrLGSOMVNn5BJf4-mFOpmp9ROdtxo7yIk"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
                 }
             ],
             "body": {
@@ -195,8 +195,13 @@
             "method": "PUT",
             "sortNum": 10000,
             "created": "2024-06-11T00:35:52.715Z",
-            "modified": "2024-06-11T00:41:47.821Z",
-            "headers": [],
+            "modified": "2024-06-28T00:54:49.324Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ],
             "body": {
                 "type": "json",
                 "raw": "{\n    \"apellido\": \"Schup\"\n}",
@@ -212,8 +217,13 @@
             "method": "DELETE",
             "sortNum": 10000,
             "created": "2024-06-11T01:01:54.807Z",
-            "modified": "2024-06-11T01:04:31.528Z",
-            "headers": []
+            "modified": "2024-06-28T00:55:01.415Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "9b934f6b-4865-432a-885f-9d8ae474282b",
@@ -224,8 +234,13 @@
             "method": "PUT",
             "sortNum": 10000,
             "created": "2024-06-19T00:07:29.908Z",
-            "modified": "2024-06-19T00:13:04.219Z",
-            "headers": [],
+            "modified": "2024-06-28T00:56:26.602Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ],
             "body": {
                 "type": "json",
                 "raw": "{\n    \"licencia\":\"false\"\n}",
@@ -241,8 +256,13 @@
             "method": "DELETE",
             "sortNum": 10000,
             "created": "2024-06-19T00:07:29.909Z",
-            "modified": "2024-06-19T00:13:57.444Z",
-            "headers": []
+            "modified": "2024-06-28T00:56:36.771Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "1ee62cb3-2580-4a4e-a86e-0ad8f5456597",
@@ -287,8 +307,13 @@
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-05-05T23:44:47.600Z",
-            "modified": "2024-05-05T23:46:39.268Z",
-            "headers": []
+            "modified": "2024-06-28T00:51:02.901Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "376adce9-168c-4135-9c5a-c2c2b889c74a",
@@ -299,8 +324,13 @@
             "method": "DELETE",
             "sortNum": 20000,
             "created": "2024-06-11T01:02:02.696Z",
-            "modified": "2024-06-11T01:03:45.071Z",
-            "headers": []
+            "modified": "2024-06-28T00:55:11.082Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "830c6856-e3f6-4225-9447-bd6ab78279fb",
@@ -311,8 +341,13 @@
             "method": "DELETE",
             "sortNum": 20000,
             "created": "2024-06-19T00:07:29.910Z",
-            "modified": "2024-06-19T00:14:32.469Z",
-            "headers": []
+            "modified": "2024-06-28T00:56:44.928Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "1f768a50-fe44-491c-b7aa-b5ad74a9bd4d",
@@ -357,8 +392,13 @@
             "method": "GET",
             "sortNum": 30000,
             "created": "2024-05-05T23:46:01.020Z",
-            "modified": "2024-05-05T23:47:14.551Z",
-            "headers": []
+            "modified": "2024-06-28T00:51:26.074Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "c4769820-05c4-4765-b69b-3f839eb7e673",
@@ -403,8 +443,13 @@
             "method": "PUT",
             "sortNum": 40000,
             "created": "2024-05-05T23:48:16.197Z",
-            "modified": "2024-05-05T23:51:15.493Z",
-            "headers": [],
+            "modified": "2024-06-28T00:52:12.545Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ],
             "body": {
                 "type": "json",
                 "raw": "{\n  \"curso\": \"Literatura\"\n}",
@@ -420,8 +465,13 @@
             "method": "DELETE",
             "sortNum": 50000,
             "created": "2024-05-05T23:52:40.785Z",
-            "modified": "2024-05-05T23:53:43.109Z",
-            "headers": []
+            "modified": "2024-06-28T00:52:40.862Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "0a7939d1-9497-490c-a63d-4b24e16c4a9c",
@@ -432,8 +482,13 @@
             "method": "DELETE",
             "sortNum": 60000,
             "created": "2024-05-05T23:55:14.062Z",
-            "modified": "2024-05-05T23:56:20.280Z",
-            "headers": []
+            "modified": "2024-06-28T00:52:56.099Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "85c883d8-4f29-4f5a-95eb-6e2de14ed3a0",
@@ -456,8 +511,13 @@
             "method": "GET",
             "sortNum": 80000,
             "created": "2024-06-11T00:22:46.529Z",
-            "modified": "2024-06-11T00:22:58.103Z",
-            "headers": []
+            "modified": "2024-06-28T00:53:51.009Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "915bbca2-cd55-4ebe-95b7-d59408009217",
@@ -468,8 +528,13 @@
             "method": "GET",
             "sortNum": 80000,
             "created": "2024-06-19T00:07:29.905Z",
-            "modified": "2024-06-19T00:09:51.249Z",
-            "headers": []
+            "modified": "2024-06-28T00:55:54.712Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "15211955-b85c-4517-9220-dc44e32d805a",
@@ -480,8 +545,13 @@
             "method": "GET",
             "sortNum": 90000,
             "created": "2024-06-11T00:33:34.096Z",
-            "modified": "2024-06-11T00:37:38.729Z",
-            "headers": []
+            "modified": "2024-06-28T00:54:19.544Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "8998915b-3320-4fb1-86cc-44c381d34fa1",
@@ -492,8 +562,13 @@
             "method": "GET",
             "sortNum": 90000,
             "created": "2024-06-19T00:07:29.906Z",
-            "modified": "2024-06-19T00:10:47.627Z",
-            "headers": []
+            "modified": "2024-06-28T00:56:06.852Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "4d5e02f0-2910-43ac-bd77-f65b42c7f26b",
@@ -504,8 +579,13 @@
             "method": "POST",
             "sortNum": 100000,
             "created": "2024-06-11T00:23:55.272Z",
-            "modified": "2024-06-11T00:32:46.613Z",
-            "headers": [],
+            "modified": "2024-06-28T00:53:20.116Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ],
             "body": {
                 "type": "json",
                 "raw": "{\n  \"nombre\": \"Fernando\",\n  \"apellido\": \"Gutierrez\",\n  \"dni\": \"12345678\",\n  \"fecha_nacimiento\": \"2000-11-11\",\n  \"curso\": \"Arte\",\n  \"email\": \"fernando.gutierrez@example.com\",\n  \"telefono\": \"1234567890\",\n  \"direccion\": \"Calle de la Luna 123\",\n  \"foto\": \"https://www.w3schools.com/howto/img_avatar.png\"\n}",
@@ -521,8 +601,13 @@
             "method": "GET",
             "sortNum": 100000,
             "created": "2024-06-11T00:33:43.040Z",
-            "modified": "2024-06-11T00:35:29.224Z",
-            "headers": []
+            "modified": "2024-06-28T00:54:30.232Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "54a054b4-a407-42e5-8431-a36e17f3b7f2",
@@ -533,8 +618,13 @@
             "method": "POST",
             "sortNum": 100000,
             "created": "2024-06-19T00:07:29.903Z",
-            "modified": "2024-06-19T00:08:27.485Z",
-            "headers": [],
+            "modified": "2024-06-28T00:55:24.310Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ],
             "body": {
                 "type": "json",
                 "raw": "{\n  \"nombre\": \"Fernando\",\n  \"apellido\": \"Gutierrez\",\n  \"dni\": \"12345678\",\n  \"fecha_nacimiento\": \"2000-11-11\",\n  \"email\": \"fernando.gutierrez@example.com\",\n  \"telefono\": \"1234567890\",\n  \"direccion\": \"Calle de la Luna 123\",\n  \"foto\": \"https://www.w3schools.com/howto/img_avatar.png\"\n}",
@@ -550,8 +640,13 @@
             "method": "GET",
             "sortNum": 100000,
             "created": "2024-06-19T00:07:29.907Z",
-            "modified": "2024-06-19T00:11:32.492Z",
-            "headers": []
+            "modified": "2024-06-28T00:56:17.014Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njc5ZDAyOTkzYmNjMjBiNzkzYTM3YzYiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MTk1MzU3NzcsImV4cCI6MTcxOTUzOTM3N30.q2lfxfRNpAX-r3ErqC04737Fn5AkP0-xqJTAolhnJ9w"
+                }
+            ]
         },
         {
             "_id": "2978cc9d-50a1-43aa-a15d-b7b54895b593",
@@ -574,7 +669,7 @@
             "method": "POST",
             "sortNum": 110000,
             "created": "2024-06-19T00:07:29.904Z",
-            "modified": "2024-06-19T00:08:58.744Z",
+            "modified": "2024-06-28T00:55:39.815Z",
             "headers": []
         },
         {
@@ -637,11 +732,11 @@
             "method": "POST",
             "sortNum": 180000,
             "created": "2024-06-20T17:17:23.392Z",
-            "modified": "2024-06-24T22:15:18.218Z",
+            "modified": "2024-06-28T00:49:37.448Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\": \"pepito1@gmail.com\",\n  \"password\": \"1234\"\n}",
+                "raw": "{\n  \"email\": \"pepito4@gmail.com\",\n  \"password\": \"1234\"\n}",
                 "form": []
             }
         },
@@ -687,5 +782,5 @@
             "headers": []
         }
     ],
-    "ref": "uV8Sj708XhI8zpsTMYdCh97FJUbyAJta1-Vmyk-3-iY-USsiOXoVlP47A8MwRy4kZlzxJGaT5jROun1KDENKfg"
+    "ref": "uV8Sj708XhI8zpsTMYdCh7OVyAA7rIIcfmzER5FJhj9lOv1iuKL8NQvpqGTxpExgid1RdHO6qmlG2vCBWFhnMg"
 }

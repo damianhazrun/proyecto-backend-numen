@@ -2,12 +2,13 @@
 
 ## 1. Configuración Inicial
 
-- Clona el repositorio del proyecto desde [repositorio](https://github.com/damianhazrun/proyecto-backend-numen).
-- Instala las dependencias utilizando `npm install`.
-- Crea un archivo `.env` con las siguientes variables de entorno:
+- Clonar el repositorio del proyecto desde [repositorio](https://github.com/damianhazrun/proyecto-backend-numen).
+- Instalar las dependencias utilizando `npm install`.
+- Crear un archivo `.env` con las siguientes variables de entorno:
     - `MONGO_URL`: URL de conexión a la base de datos MongoDB.
     - `SESSION_SECRET`: Clave secreta para la sesión.
     - `JWT_SECRET_KEY`: Clave secreta para firmar los tokens JWT.
+- Se provee una colección para su uso en Thunder Client.
 
 ## 2. Estructura del Proyecto
 
